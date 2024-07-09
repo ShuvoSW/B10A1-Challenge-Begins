@@ -32,7 +32,12 @@
     margin: 0 auto;
     display: flex;
     justify-content: center;
+    margin-bottom: 20px;
 } 
+.banner-heading p{
+    font-size: 36px;
+    font-weight: bolder;
+}
 .banner-heading span{
     display: flex;
     justify-content: center;
