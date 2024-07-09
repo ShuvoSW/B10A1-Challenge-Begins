@@ -1,0 +1,64 @@
+/* banner-background-image */
+.banner-background-image{
+    background-image: url(../assets/Hero-bg.png);
+    width: 1928px;
+    height: 912.8px;
+    left: 0;
+    right: 0;
+    top: 131px;
+    bottom: 4462px;
+}  
+/* banner */
+.banner{
+    position: absolute;
+    width: 1497.2px;
+    height: 682px;
+    left: 200px;
+    right: 200px;
+    top: 100px;
+    bottom: 80px;
+}
+/* banner-image */
+.banner-image{
+    width: 242.242px;
+    height: 320.46px;
+    margin: 0 auto;
+    
+}
+/* banner heading */
+.banner-heading {
+    width: 1397.2px;
+    height: 100.4px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+} 
+.banner-heading span{
+    display: flex;
+    justify-content: center;
+}
+/* banner text */
+.banner-text {
+    height: 80px;
+    width: 800px;
+    margin: 0 auto;
+   display: flex;
+   justify-content: center;
+}
+.banner-text, span{
+    display: flex;
+    justify-content: center;
+}
+.banner-button{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    width: 291px;
+    height: 70px;
+   color: white;
+   background-color: black;
+
+}
