@@ -140,3 +140,35 @@
     font-weight: 400;
     text-align: center;
 }
+/* current section style */
+.current-target-section{
+    width: 1190px;
+    height: 620px;
+    margin: 0 auto;
+}
+.all-tokens{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.token1{
+    width: 360px;
+    height: 300px;
+    border-radius: 16px;
+    padding: 15px;
+    background-color: #FFF6F4;
+}
+.token2{
+    width: 360px;
+    height: 300px;
+    border-radius: 16px;
+    padding: 15px;
+    background-color: #F2F6FE;
+}
+.token3{
+    width: 360px;
+    height: 300px;
+    border-radius: 16px;
+    padding: 15px;
+    background-color: #FFFDF2;
+}
