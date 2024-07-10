@@ -1,4 +1,4 @@
-/* banner-background-image */
+/* banner-background-image style*/
 .banner-background-image{
     background-image: url(../assets/Hero-bg.png);
     width: 1928px;
@@ -8,7 +8,7 @@
     top: 131px;
     bottom: 4462px;
 }  
-/* banner */
+/* banner style*/
 .banner{
     position: absolute;
     width: 1497.2px;
@@ -18,14 +18,14 @@
     top: 100px;
     bottom: 80px;
 }
-/* banner-image */
+/* banner-image style*/
 .banner-image{
     width: 242.242px;
     height: 320.46px;
     margin: 0 auto;
     
 }
-/* banner heading */
+/* banner heading style*/
 .banner-heading {
     width: 1397.2px;
     height: 100.4px;
@@ -42,7 +42,7 @@
     display: flex;
     justify-content: center;
 }
-/* banner text */
+/* banner text style*/
 .banner-text {
     height: 80px;
     width: 800px;
@@ -60,10 +60,55 @@
     justify-content: center;
     align-items: center;
 }
-.button{
+.button1{
     width: 291px;
     height: 70px;
    color: white;
    background-color: black;
+   margin-top: 200px;
 
+}
+/* main section style */
+.main{
+    height: 1200px;
+    width: 1100px;
+    padding: 112px 135px 112px 135px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+}
+.main-heading{
+    text-align: center;
+}
+.main-heading-first-paragraph{
+    font-size: 35px;
+    font-weight: bolder;
+}
+.text-and-image{
+    height: 339px;
+    width: 1190px;
+    display: flex;
+    margin: 44px 0px;
+    background-color: #FAFAFB;
+}
+.text{
+    height: 308px;
+    width: 668px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.first-paragraph{
+    font-size: 35px;
+    font-weight: bolder;
+}
+.img{
+    height: 308px;
+    height: 308px;
+    margin-left:400px; 
+}
+
+.different-img{
+    height: 308px;
+    height: 308px;
+    margin-right:400px; 
 }
