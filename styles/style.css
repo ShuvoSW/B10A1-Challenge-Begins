@@ -1,12 +1,30 @@
+.nav {
+    width: 1500px;
+    margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  } 
+  .nav-text{
+    font-size: 34px;
+    font-weight: bolder;
+  }
+.nav-button{
+    height: 60px;
+    width: 240px;
+    background-color: transparent;
+    border-radius: 10px;
+}
 /* banner-background-image style*/
 .banner-background-image{
     background-image: url(../assets/Hero-bg.png);
     width: 1928px;
-    height: 912.8px;
+    height: 800px;
     left: 0;
     right: 0;
     top: 131px;
     bottom: 4462px;
+    
 }  
 /* banner style*/
 .banner{
@@ -23,6 +41,7 @@
     width: 242.242px;
     height: 320.46px;
     margin: 0 auto;
+    margin-top: 60px;
     
 }
 /* banner heading style*/
@@ -65,7 +84,7 @@
     height: 70px;
    color: white;
    background-color: black;
-   margin-top: 200px;
+   margin-top: 10px;
 
 }
 /* main section style */
@@ -179,17 +198,35 @@
     margin: 0 auto;
     border-radius: 16px;
     background-image: url(../assets/handshake.jpg);
-    background-repeat: ;
     background-size:contain;
-
-
 }
 .input-section{
     display: flex;
     justify-content: center;
 }
-#text-box1
-{
+#text-box1{
     width:300px;
-  
+  }
+  /* footer section style */
+.footer-section{
+    height: 45px;
+    width: 1190px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    background-color: #F7F8F8;
+    gap: 10px;
+    margin-top: 20px;
+    /* display: grid; */
+  /* row-gap: 100px; */
+}
+.icon{
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-text{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
 }
