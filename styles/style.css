@@ -172,3 +172,24 @@
     padding: 15px;
     background-color: #FFFDF2;
 }
+/* support section style */
+.support-section{
+    width: 1190px;
+    height: 290px;
+    margin: 0 auto;
+    border-radius: 16px;
+    background-image: url(../assets/handshake.jpg);
+    background-repeat: ;
+    background-size:contain;
+
+
+}
+.input-section{
+    display: flex;
+    justify-content: center;
+}
+#text-box1
+{
+    width:300px;
+  
+}
